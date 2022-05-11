@@ -1,0 +1,55 @@
+* {
+  border : 0;
+  padding : 0;
+  margin : 0;
+}
+
+.header {
+  width : 100%;
+  text-align: center;
+  border-bottom : 1px solid black;
+}
+.header h1 {
+  margin : 10px auto;
+}
+
+.content {
+  width : 100%;
+  display: flex;
+  flex-direction: row;
+}
+.sidenav {
+  width : 10%;
+  display: flex;
+  flex-direction: column;
+  padding-right : 20px;
+  background-color: rgba(0,0,0,0.2);
+}
+
+.sidenav a {
+  width : 100%;
+  padding : 10px;
+  text-decoration: none;
+  background-color: rgba(255,255,255,0);
+  border-right : 1px solid black;
+  color : rgba(0,0,0,1);
+}
+.sidenav a:visited, .sidenav a:active {
+  background-color: rgba(255,255,255,0);
+  color: rgba(0,0,0,1);
+}
+.sidenav a:hover {
+  background-color: rgba(0,0,0,0.2);
+  color : rgba(255,0,0,1);
+}
+
+
+#add-tag {
+  display: none;
+  padding : 10px;
+}
+#add-tag input {
+  padding : 10px;
+  margin : 10px;
+  border : 1px solid black;
+}
